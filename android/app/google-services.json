@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "97692406683",
+    "project_id": "smart-wash-77ccf",
+    "storage_bucket": "smart-wash-77ccf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97692406683:android:a23964530d53488dc0c73e",
+        "android_client_info": {
+          "package_name": "com.examplee.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB53zZb-VLjcdziXwgBswsMkk44y1SMYLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97692406683:android:01d76bb3004d7d4cc0c73e",
+        "android_client_info": {
+          "package_name": "com.smartwashsellerrr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB53zZb-VLjcdziXwgBswsMkk44y1SMYLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97692406683:android:bb54696c3fc65a82c0c73e",
+        "android_client_info": {
+          "package_name": "com.smartwashuserrrrr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB53zZb-VLjcdziXwgBswsMkk44y1SMYLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
