@@ -363,7 +363,7 @@ readOnly: true,
 
                 ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                        primary: AppColors.gold // Background color
+                        backgroundColor: AppColors.gold // Background color
                     ),
                     onPressed: () {
 

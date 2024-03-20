@@ -176,7 +176,7 @@ Row(children: [
       ),
 bottomSheet:  ElevatedButton(
     style: ElevatedButton.styleFrom(
-        primary: AppColors.gold // Background color
+        backgroundColor: AppColors.gold // Background color
     ),
     onPressed: () {
 
@@ -231,7 +231,7 @@ bottomSheet:  ElevatedButton(
 
              ElevatedButton(
                  style: ElevatedButton.styleFrom(
-                     primary: AppColors.gold // Background color
+                     backgroundColor: AppColors.gold // Background color
                  ),
                  onPressed: () {
 if (_formKey.currentState!.validate()) {
