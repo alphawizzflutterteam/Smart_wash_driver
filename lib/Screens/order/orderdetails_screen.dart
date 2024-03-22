@@ -536,7 +536,7 @@ class _OrderDetailsSreenState extends State<OrderDetailsSreen> {
                       ),
                       Spacer(),
                       Text(
-                        '${getOrderDetailModel?.data?.order?.totalAmount}',
+                        '${getOrderDetailModel?.data?.order?.amount}',
                         style: TextStyle(fontSize: 12),
                       ),
                       SizedBox(
@@ -647,12 +647,12 @@ class _OrderDetailsSreenState extends State<OrderDetailsSreen> {
         if (getOrderDetailModel?.data?.order?.deliveryCharge == 0 &&
             getOrderDetailModel?.data?.order?.discount == 0) {
           setState(() {
-            totalAmountttt = getOrderDetailModel?.data!.order!.totalAmount;
+            totalAmountttt = getOrderDetailModel?.data!.order!.amount;
           });
         } else {
           setState(() {
             var totalamount =
-                int.parse(getOrderDetailModel!.data!.order!.totalAmount);
+                int.parse(getOrderDetailModel!.data!.order!.amount);
             var deliverycharge =
                 int.parse(getOrderDetailModel!.data!.order!.deliveryCharge);
             var discount =
